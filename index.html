@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  </body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <title>Proyecto Coder</title>
 
 
@@ -12,12 +18,12 @@
 
 <body>
   <header>
+    
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="./img/Luly store logo.jpg"></a>
-
-        <div class="collapse navbar-collapse">
+       <div class="collapse navbar-collapse">
           <div class="navbar-nav">
+            <img class="logo" src="./img/Luly store logo.jpg" alt="">
             <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
             <a class="nav-link" href="./pages/Nutrición.html">Nutrición</a>
             <a class="nav-link" href="./pages/Productos.html">Productos</a>
@@ -27,52 +33,71 @@
         </div>
       </div>
     </nav>
+    
   </header>
   <main>
-    <section>
-      <h1 class="bienvenidos">¡BIENVENIDOS!</h1>
-      <img src="./img/banner perro y gato.avif" class="banner-perro" alt="">
+    <section class="bienvenidos">
+      <h1>BIENVENIDOS A LULYPETSHOP</h1>
+      <img src="./img/banner perro y gato.avif" alt="">
+
+    </section>
+    
 
   </main>
 
-
-  <h2 class="marcas">NUESTRAS MARCAS</h2>
-  <section class="imagenes">
-    <div class="grid-eukanuba">
-      <h3>EUKANUBA</h3>
-      <a href="https://www.eukanuba.com/ar" target="_blank">
-        <img src="./img/euk perro adulto raza mediana.webp" alt="">
-      </a>
+  <section class="nuestras-marcas">
+    <h2> NUESTRAS MARCAS</h2>
+    
+  </section>
+  <section class="carrousel">
+    <div  class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner eukanuba.png" class="imagen-banner" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Banner Pro Plan.jpg.webp" class="imagen-banner" alt="...">
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="grid-pro-plan">
-      <h3>PROPLAN</h3>
-      <a href="https://www.purina.com.ar/proplan" target="_blank">
-        <img class="pro-gato" src="./img/proplan gato adulto 15kg.webp" alt="">
-
-      </a>
-
-
-
-
-    </div>
-
-
-
-
-
 
   </section>
   <section class="beneficios">
-    <h2>Beneficios nutritivos</h2>
-    <p>
-      Los alimentos balanceados previenen enfermedades tales como diabetes, obesidad,
-      patologías cardíacas y cáncer; mejoran la calidad de vida, mantienen una piel
-      sana, fortalecen el sistema inmunológico, mejoran la salud de los huesos y
-      previenen el sarro, mejora el pelaje y desarrolla músculos sanos.
+    <h2>BENEFICIOS DEL ALIMENTO BALANCEADO</h2>
+    <h3>SISTEMA INMUNOLÓGICO</h3>
+    <p>Las vitaminas y minerales presentes en los alimentos balanceados ayudan a mantener el sistema inmunológico
+      y el metabolismo de los perros y gatos.
     </p>
+    <h3>DIGESTIÓN</h3>
+    <p>Los alimentos de calidad y fáciles de digerir ayudan a que el aparato digestivo funcione bien y a prevenir
+      problemas gastrointestinales.
+    </p>
+    <h3>MÚSCULOS, PIEL Y PELAJE</h3>
+    <p>Las proteínas de los alimentos balanceados benefician a los músculos, la piel y el pelaje del animal.</p>
+    <h3>SALUD DE LOS OJOS</h3>
+    <p>La Vitamina A ayuda a sanar los ojos y que estén más brillantes</p>
+    <h3>SALUD DE LAS ARTICULACIONES</h3>
+    <p>Los ácidos grasos omega 3 ayudan a la salud de las articulaciones del perro y gato adulto.</p>
+    <h3>SALUD DEL CEREBRO</h3>
+    <p>Los ácidos grasos omega 3 ayudan al desarrollo del cerebro y la visión de los animales.</p>
+    <h3>CONTROL DEL PESO</h3>
+    <p>Una alimentación adecuada ayuda a mantener el peso de los animales</p>
+    <h3>REDUCCIÓN DE SARRO</h3>
+    <p>Ayuda a reducir la formación de sarro en los dientes.</p>
+   
+
   </section>
 
-  </main>
+
   <footer>
     <a href="https://www.instagram.com" target="_blank">
       <img src="./img/instagram.png" class="iconos-redes" alt="">
