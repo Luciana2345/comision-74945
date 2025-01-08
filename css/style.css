@@ -401,11 +401,13 @@ footer{
     }
 }
 
-@media screen and (479px){
+@media screen and ( max-width:479px){
+
+}
     .bienvenidos{
         height: 400px;
     }
-}
+
 
 @media screen and (max-width:580px){
     nav div a img{
@@ -493,7 +495,7 @@ footer{
     }
 }
 
-@media screen and (max-width:){
+@media screen and (max-width:619px){
     .pelu-canina h2{
         font-size: 25px;
     }
