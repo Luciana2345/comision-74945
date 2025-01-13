@@ -27,7 +27,7 @@ body{
 }
 
 .link-nav{
-    color: rgb(102, 102, 252);
+    color: rgb(226, 96, 176);
     text-decoration: none;
     list-style-type: none;
     display: flex;
@@ -36,10 +36,21 @@ body{
     width: 80px;
 }
 
+.link-nav:hover{
+    background-color: crimson;
+}
+
 .link-nav-inicio{
-    color: rgb(102, 102, 252);
+    color: rgb(226, 96, 176);
     
 }
+
+.link-nav-inicio:hover{
+    background-color: crimson;
+
+}
+
+
 
 
 .logo-pagina{
@@ -602,6 +613,57 @@ footer{
         height: 600px;
         
     }
+}
+
+/*----HTML PRODUCTOS 350 PX----*/
+@media screen and (max-width:350px){
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px;
+}
+
+@media screen and (max-width:350px){
+    .titulo-galeria{
+        font-size: 15px;
+    }
+}
+
+/*----HTML SERVICIOS 350PX---*/
+@media screen and (max-width:350px){
+    .imagenes-servicios img{
+        width: 150px;
+        height: 95px;
+    }
+}
+
+/*----HTML CONTACTO 350PX---*/
+@media screen and (max-width:350px){
+    .contacto-redes h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .contacto-redes{
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .mb-3{
+        padding-top: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:608px){
+    .beneficios{
+        height: 1200px;
+    }
+   
+
 }
 
 
