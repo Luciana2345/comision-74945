@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+
+/*------------------INDEX--------------*/
+
+/*-------------MAIN-----------*/
+/*----sección bienvenidos----*/
+.container-fluid{
+    background-color: rgb(1, 12, 19);
+    width: 100%;
+    height: 90px;
+    &:hover{
+      color: crimson;
+    }
+}
+.link-nav{
+    color: rgb(226, 96, 176);
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80px;
+}
+.logo-pagina{
+    width: 80px;
+    height: 80px;
+    align-items: start;
+}
+main .bienvenidos {
+  background-image: url(../img/fondo\ mascotas.avif);
+}
+main .bienvenidos h1 {
+  color: rgb(46, 17, 150);
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+main .bienvenidos img {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 300px;
+}
+.carrousel{
+  height: 300px;
+}
+.imagen-banner{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+/*------------sección nuestras marcas----------*/
+.nuestras-marcas {
+  background-image: url(../img/fondo\ mascotas.avif);
+}
+.nuestras-marcas h2 {
+  color: rgb(3, 3, 110);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 35px;
+  background-color: rgb(156, 220, 223);
+}
+
+/*----------------sección beneficios-------------*/
+.beneficios {
+  height: 800px;
+  background-image: url(../img/fondo\ mascotas.avif);
+}
+.beneficios h2 {
+  color: rgb(5, 5, 99);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
+  background-color: rgb(156, 220, 223);
+}
+.beneficios h3 {
+  color: rgb(6, 6, 221);
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+.beneficios p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*----------------------NUTRICIÓN--------------*/
+main .titulo-nutricion h2 {
+  color: rgb(5, 5, 99);
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
+  background-image: url(../img/fondodelicado.avif);
+}
+main .tabla-nutricional {
+  height: 1200px;
+  background-image: url(../img/fondodelicado.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main .tabla-nutricional h3 {
+  color: black;
+  font-size: 25px;
+  text-decoration: underline;
+}
+main .tabla-nutricional img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .eleccion-alimento {
+  background-image: url(../img/fondodelicado.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main .eleccion-alimento h3 {
+  color: darkblue;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+main .eleccion-alimento .accordion {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/*---------------PRODUCTOS------------*/
+main .titulo-galeria {
+  font-size: 30px;
+  color: darkblue;
+  text-align: center;
+  text-decoration: underline;
+  background-image: url(../img/fondodelicado.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .grid-galeria {
+  width: 100%;
+  height: 1800px;
+  display: grid;
+  margin-top: 35px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .grid-galeria .grid-item img {
+  width: 250px;
+  height: 250px;
+}
+main .grid-galeria .img-1 {
+  grid-column: span 2;
+}
+main .grid-galeria .img-3 {
+  grid-column: span 2;
+}
+main .grid-galeria .img-5 {
+  grid-column: span 2;
+}
+main .grid-galeria .img-8 {
+  grid-row: span 2;
+}
+main .grid-galeria .img-13 {
+  grid-row: span 2;
+}
+
+/*-------------------SERVICIOS---------------*/
+main .servicios {
+  height: 400px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+main .imagenes-servicios h2 {
+  color: black;
+  font-size: 30px;
+  text-decoration: underline;
+  background-color: aqua;
+}
+main .imagenes-servicios img {
+  width: 300px;
+  height: 200px;
+}
+main .pelu-canina h2 {
+  color: darkblue;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  background-color: cornflowerblue;
+}
+main .accordion-body {
+  font-size: 20px;
+}
+
+/*----------------CONTACTO--------*/
+main .contacto-redes {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+main .contacto-redes h2 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+  background-color: rgb(180, 201, 240);
+}
+main .contacto-redes h3 {
+  color: darkblue;
+  font-size: 15px;
+  padding: 20px;
+}
+main .contacto-redes .logo-facebook {
+  width: 30px;
+  height: 30px;
+}
+main .contacto-redes .logo-instagram {
+  width: 30px;
+  height: 30px;
+}
+main .contacto-redes .logo-whatsapp {
+  width: 30px;
+  height: 30px;
+}
+
+/*----------------FOOTER---------*/
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(12, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+footer a img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer a .icono-wp {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

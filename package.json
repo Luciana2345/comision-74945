@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luciana2345/comision-74945.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luciana2345/comision-74945/issues"
+  },
+  "homepage": "https://github.com/Luciana2345/comision-74945#readme",
+  "description": ""
+}
