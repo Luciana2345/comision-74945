@@ -40,18 +40,6 @@ body{
     color: crimson;
 }
 
-.link-nav-inicio{
-    color: rgb(226, 96, 176);
-    
-}
-
-.link-nav-inicio:hover{
-    color: crimson;
-
-}
-
-
-
 
 .logo-pagina{
     width: 80px;
@@ -399,268 +387,71 @@ footer{
     padding: 25px;
 }
 
-
-@media screen and (max-width:619px){
-    nav div ul{
-        flex-direction: column;
-        text-align: left;
+/*------------QUERIES NUTRICIÓN----------*/
+@media screen and (max-width:991px){
+    .tabla-nutricional{
+        padding-top: 35px;
     }
 }
 
-@media screen and (max-width:619px){
-    .bienvenidos img{
-        height: 150px;
+/*-------QUERIES PRODUCTOS------*/
+@media screen and (max-width:991px){
+    .bienvenidos h1{
+        font-size: 35px;
+    }
+    .container-fluid{
+        background-color: black;
+        height: 220px;
         width: 100%;
     }
-}
-
-@media screen and ( max-width:479px){
-
-}
-    .bienvenidos{
-        height: 400px;
+    .titulo-galeria{
+        font-size: 25px;
+        padding-left: 100px;
     }
-
-
-@media screen and (max-width:580px){
-    nav div a img{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 250px 250px;
+        height: 1800px;
+        padding-top: 55px;
+        padding-left: 35px;
     }
-}
-
-@media screen and (max-width:545px){
-    .beneficios{
-        height: 1200px;
+    .grid-item img{
+        width: 150px;
+        height: 150px;
+    }
+    .contacto-redes{
+        padding-top: 45px;
     }
 }
 
-/*---html nutrición: media queri---*/
-
-@media screen and (max-width:619px){
-    .container-fluid{
-        height: 90px;
-    }
-}
-
-@media screen and (max-width:619px){
-    .nutricion-alimentos{
-        padding-top: 40px;
-        display: flex;
-        justify-content: center;
-    }
-   
-}
-
-@media screen and ( max-width:545px){
+@media screen and (max-width:777px){
     .tabla-nutricional{
         height: 800px;
     }
-}
-
-@media screen and (max-width:545px){
     .tabla-nutricional img{
         width: 400px;
         height: 300px;
-        padding-left: 60px;
     }
-}
-
-/*----HTML PRODUCTOS----*/
-@media screen and (max-width:619px){
-    .titulo-galeria{
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width:619px){
     .grid-galeria{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 250px;
-        height: 2800px;
+        padding-right: 35px;
     }
-}
-
-@media screen and (max-width:619px){
-    .grid-galeria img{
-        width: 200px;
-        height: 200px;
-        padding-top: 15px;
-        padding-right: 40px;
-        background-image: url(../img/fondodelicado.avif);
-    }
-}
-
-@media screen and (max-width:619px){
-    .grid-item img-1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 250px;
-        padding: 15px;
-
-    }
-}
-
-@media screen and (max-width:619px){
-    .grid-item{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 250px;
-        padding: 15px;
-        margin-left: 50px;
-    }
-}
-
-/*----HTML SERVICIOS----*/
-
-@media screen and (max-width:619px){
-    .imagenes-servicios{
-        padding-top: 15px;
-    }
-}
-
-@media screen and (max-width:545px){
     .imagenes-servicios img{
         width: 200px;
         height: 100px;
     }
-}
-
-@media screen and (max-width:619px){
+    .imagenes-servicios h2{
+        font-size: 20px;
+    }
     .pelu-canina h2{
         font-size: 25px;
     }
 }
 
-@media screen and (max-width:545px){
-    .imagenes-servicios h2{
-        font-size: 20px;
-    }
-}
-
-/*----HTML CONTACTO----*/
-
-@media screen and (max-width:545px){
-    .contacto-redes{
-        margin-top: 40px;
-    }
-}
-
-/*---HTML INDEX 350PX----*/
-
-@media screen and (max-width:350px){
-    .bienvenidos h1{
-        font-size:25px;
-        padding-top: 30px;
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .bienvenidos img{
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .imagen-banner{
-        height: 150px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .beneficios{
-        height: 1600px;
-        padding-top: 10px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .nuestras-marcas h2{
-        padding-top: 15px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .beneficios h3{
-        padding-top: 30px;
-    }
-}
-
-/*----HTML NUTRICIÓN 350PX---*/
-
-@media screen and (max-width:350px){
-    .titulo-nutricion h2{
-        font-size: 25px;
-        padding-left: 90px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .tabla-nutricional img{
-        width: 300px;
-        height: 200px;
-    }
-}
-
-
-@media screen and (max-width:350px){
-    .tabla-nutricional{
-        height: 600px;
-        
-    }
-}
-
-/*----HTML PRODUCTOS 350 PX----*/
-@media screen and (max-width:350px){
-    .grid-galeria{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 250px;
-}
-
-@media screen and (max-width:350px){
-    .titulo-galeria{
-        font-size: 15px;
-    }
-}
-
-/*----HTML SERVICIOS 350PX---*/
-@media screen and (max-width:350px){
-    .imagenes-servicios img{
-        width: 150px;
-        height: 95px;
-    }
-}
-
-/*----HTML CONTACTO 350PX---*/
-@media screen and (max-width:350px){
-    .contacto-redes h2{
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .contacto-redes{
-        padding-top: 80px;
-    }
-}
-
-@media screen and (max-width:350px){
-    .mb-3{
-        padding-top: 30px;
-    }
+@media screen and(max-width:469px){
+    
 }
 
 
 
-@media screen and (max-width:608px){
-    .beneficios{
-        height: 1200px;
-    }
-        
-}
+
