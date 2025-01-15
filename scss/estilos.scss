@@ -1,4 +1,7 @@
 /*------------------INDEX--------------*/
+
+
+
 .link-nav{
     color: rgb(226, 96, 176);
     text-decoration: none;
@@ -242,13 +245,13 @@ main{
         display: flex;
         flex-direction: column;
         height: 400px;
-        h2{
-            color: black;
-            font-size: 25px;
-            text-align: center;
-            text-decoration: underline;
-            padding: 20px;
-            background-color: rgb(180, 201, 240);
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+        padding: 20px;
+        background: rgb(236,165,196);
+        background: linear-gradient(90deg, rgba(236,165,196,1) 13%, rgba(148,187,233,1) 77%);
         }
         h3{
             color: darkblue;

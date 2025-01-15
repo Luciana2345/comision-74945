@@ -1,0 +1,81 @@
+/*------------QUERIES NUTRICIÓN----------*/
+@media screen and (max-width:991px){
+    .tabla-nutricional{
+        padding-top: 35px;
+    }
+  }
+  
+  /*-------QUERIES PRODUCTOS------*/
+  @media screen and (max-width:991px){
+    .bienvenidos h1{
+        font-size: 35px;
+    }
+    .container-fluid{
+        background-color: black;
+        height: 220px;
+        width: 100%;
+    }
+    .titulo-galeria{
+        font-size: 25px;
+        padding-left: 100px;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 250px 250px;
+        height: 1800px;
+        padding-top: 55px;
+        padding-left: 35px;
+    }
+    .grid-item img{
+        width: 150px;
+        height: 150px;
+    }
+    .contacto-redes{
+        padding-top: 45px;
+    }
+  }
+  
+  @media screen and (max-width:777px){
+    .tabla-nutricional{
+        height: 800px;
+    }
+    .tabla-nutricional img{
+        width: 400px;
+        height: 300px;
+    }
+    .grid-galeria{
+        padding-right: 35px;
+    }
+    .imagenes-servicios img{
+        width: 200px;
+        height: 100px;
+    }
+    .imagenes-servicios h2{
+        font-size: 20px;
+    }
+    .pelu-canina h2{
+        font-size: 25px;
+    }
+  }
+  
+  @media screen and(max-width:469px){
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+         
+    }
+    .grid-item img{
+        width: 100px;
+        height: 100px;
+        padding-right: 50px;
+    }
+  }
+  
+  @media screen and (max-width:401px){
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 3000px
+    }
+  }

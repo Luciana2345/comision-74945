@@ -1,5 +1,19 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none
+    
+    
+}
+
+body{
+    font-family: "Josefin Sans", serif;
+}
 
 /*------------------INDEX--------------*/
 
@@ -216,6 +230,8 @@ main .contacto-redes {
   display: flex;
   flex-direction: column;
   height: 400px;
+  background: rgb(236,165,196);
+  background: linear-gradient(90deg, rgba(236,165,196,1) 13%, rgba(148,187,233,1) 77%);
 }
 main .contacto-redes h2 {
   color: black;
@@ -268,5 +284,88 @@ footer a .icono-wp {
   right: 0;
   margin-right: 10px;
 }
+
+/*------------QUERIES NUTRICIÓN----------*/
+@media screen and (max-width:991px){
+  .tabla-nutricional{
+      padding-top: 35px;
+  }
+}
+
+/*-------QUERIES PRODUCTOS------*/
+@media screen and (max-width:991px){
+  .bienvenidos h1{
+      font-size: 35px;
+  }
+  .container-fluid{
+      background-color: black;
+      height: 220px;
+      width: 100%;
+  }
+  .titulo-galeria{
+      font-size: 25px;
+      padding-left: 100px;
+  }
+  .grid-galeria{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 250px 250px;
+      height: 1800px;
+      padding-top: 55px;
+      padding-left: 35px;
+  }
+  .grid-item img{
+      width: 150px;
+      height: 150px;
+  }
+  .contacto-redes{
+      padding-top: 45px;
+  }
+}
+
+@media screen and (max-width:777px){
+  .tabla-nutricional{
+      height: 800px;
+  }
+  .tabla-nutricional img{
+      width: 400px;
+      height: 300px;
+  }
+  .grid-galeria{
+      padding-right: 35px;
+  }
+  .imagenes-servicios img{
+      width: 200px;
+      height: 100px;
+  }
+  .imagenes-servicios h2{
+      font-size: 20px;
+  }
+  .pelu-canina h2{
+      font-size: 25px;
+  }
+}
+
+@media screen and(max-width:469px){
+  .grid-galeria{
+      display: grid;
+      grid-template-columns: 1fr;
+       
+  }
+  .grid-item img{
+      width: 100px;
+      height: 100px;
+      padding-right: 50px;
+  }
+}
+
+@media screen and (max-width:401px){
+  .grid-galeria{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 3000px
+  }
+}
+
 
 /*# sourceMappingURL=estilos.css.map */

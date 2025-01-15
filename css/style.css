@@ -323,6 +323,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 400px;
+    background: rgb(236,165,196);
+    background: linear-gradient(90deg, rgba(236,165,196,1) 13%, rgba(148,187,233,1) 77%);
 }
 
 .contacto-redes h2{
@@ -332,7 +334,10 @@ body{
     text-decoration: underline;
     padding: 20px;
     background-color: rgb(180, 201, 240);
+    
+    
 }
+
 .contacto-redes h3{
     color: darkblue;
     font-size: 15px;
@@ -449,7 +454,24 @@ footer{
 }
 
 @media screen and(max-width:469px){
-    
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+         
+    }
+    .grid-item img{
+        width: 100px;
+        height: 100px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:401px){
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 3000px
+    }
 }
 
 
