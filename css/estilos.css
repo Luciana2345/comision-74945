@@ -180,7 +180,7 @@ main .grid-galeria {
   flex-wrap: wrap;
 }
 
-.parrafo-galeria{
+ main .parrafo-galeria{
   padding-top: 20px;
   padding-left: 50px;
   font-size: 30px;
@@ -189,7 +189,7 @@ main .grid-galeria {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px;
 }
-.grid-galeria h3{
+ main .grid-galeria h3{
   font-size: 30px;
   color: darkblue;
   text-align: center;
@@ -198,7 +198,7 @@ main .grid-galeria {
 
 }
 
-.grid-item{
+main .grid-item{
   width: 250px;
   height: 250px;
   padding-right: 15px;
@@ -207,34 +207,34 @@ main .grid-galeria {
   
   
 }
-.grid-item-1{
+main .grid-item-1{
   width: 250px;
   height: 250px;
   padding-top: 45px;
 }
-.grid-item-2{
+main .grid-item-2{
   width: 200px;
   height: 250px;
   padding-top: 35px;
   padding-left: 25px;
 }
-.grid-item-3{
+main .grid-item-3{
   width: 180px;
   height: 250px;
   padding-left: 30px;
 }
-.grid-item-4{
+main .grid-item-4{
   width: 190px;
   height: 250px;
   padding-left: 45px;
 }
-.grid-item-5{
+main .grid-item-5{
   width: 180px;
   height: 250px;
   padding-left: 40px;
   margin-left: 40px;
 }
-.grid-item-6{
+main .grid-item-6{
   width: 180px;
   height: 200px;
   padding-left: 20px;
@@ -294,17 +294,30 @@ main .contacto-redes h3 {
   font-size: 15px;
   padding: 20px;
 }
-main .contacto-redes .logo-facebook {
-  width: 30px;
-  height: 30px;
+main .contacto-redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+    display: flex;
+    padding-left: 45px;
 }
-main .contacto-redes .logo-instagram {
-  width: 30px;
-  height: 30px;
+main .logos-redes{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
 }
-main .contacto-redes .logo-whatsapp {
-  width: 30px;
-  height: 30px;
+main .contacto-redes-insta{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding-left: 45px;
+}
+main .contacto-redes-whats{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding-left: 45px;
 }
 
 /*----------------FOOTER---------*/

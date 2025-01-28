@@ -365,9 +365,11 @@ body{
 .contacto-redes{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 300px;
     background: rgb(236,165,196);
     background: linear-gradient(90deg, rgba(236,165,196,1) 13%, rgba(148,187,233,1) 77%);
+    
+
 }
 
 .contacto-redes h2{
@@ -380,28 +382,31 @@ body{
     
     
 }
-
-.contacto-redes h3{
-    color: darkblue;
-    font-size: 15px;
-    padding: 20px;
-    
+.contacto-redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+    display: flex;
+    padding-left: 45px;
 }
 
-.logo-facebook{
-    width: 30px;
-    height: 30px;
-    
+.logos-redes{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
 }
-.logo-instagram{
-    width: 30px;
-    height: 30px;
-    
+.logos-redes-insta{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding-left: 45px;
 }
-.logo-whatsapp{
-    width: 30px;
-    height: 30px;
-    
+.logos-redes-whats{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding-left: 45px;
 }
 
 /*-----FOOTER-----*/
