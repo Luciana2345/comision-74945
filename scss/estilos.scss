@@ -117,13 +117,16 @@ main {
 
         img {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-template-rows: 250px 250px;
-            width: 600px;
-            height: 500px;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+            padding-left: 40px;width: 350px;
+            height: 350px;
+            display: flex;
+            padding-top: 55px;
+            padding-left: 55px;
+            padding-bottom: 35px;
+   
 
         }
     }
