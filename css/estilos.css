@@ -42,7 +42,7 @@ body{
     align-items: start;
 }
 main .bienvenidos {
-  background-image: url(../img/fondo\ mascotas.avif);
+  background-image: url(../img/fondo\ texturado.jpeg);
 }
 main .bienvenidos h1 {
   color: rgb(46, 17, 150);
@@ -81,7 +81,7 @@ main .bienvenidos img {
 /*----------------sección beneficios-------------*/
 .beneficios {
   height: 800px;
-  background-image: url(../img/fondo\ mascotas.avif);
+  background-image: url(../img/fondo\ texturado.jpeg);
 }
 .beneficios h2 {
   color: rgb(5, 5, 99);
@@ -169,31 +169,75 @@ main .grid-galeria {
   height: 1800px;
   display: grid;
   margin-top: 35px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-auto-rows: 250px;
   gap: 15px;
   display: flex;
   flex-wrap: wrap;
 }
-main .grid-galeria .grid-item img {
+
+.parrafo-galeria{
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 30px;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
+}
+.grid-galeria h3{
+  font-size: 30px;
+  color: darkblue;
+  text-align: center;
+  text-decoration: underline;
+  background-image: url(../img/fondo\ texturado.jpeg);
+
+}
+
+.grid-item{
   width: 250px;
   height: 250px;
+  padding-right: 15px;
+  padding-top: 25pxs;
+  
+  
+  
 }
-main .grid-galeria .img-1 {
-  grid-column: span 2;
+.grid-item-1{
+  width: 250px;
+  height: 250px;
+  padding-top: 45px;
 }
-main .grid-galeria .img-3 {
-  grid-column: span 2;
+.grid-item-2{
+  width: 200px;
+  height: 250px;
+  padding-top: 35px;
+  padding-left: 25px;
 }
-main .grid-galeria .img-5 {
-  grid-column: span 2;
+.grid-item-3{
+  width: 180px;
+  height: 250px;
+  padding-left: 30px;
 }
-main .grid-galeria .img-8 {
-  grid-row: span 2;
+.grid-item-4{
+  width: 190px;
+  height: 250px;
+  padding-left: 45px;
 }
-main .grid-galeria .img-13 {
-  grid-row: span 2;
+.grid-item-5{
+  width: 180px;
+  height: 250px;
+  padding-left: 40px;
+  margin-left: 40px;
 }
+.grid-item-6{
+  width: 180px;
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+
 
 /*-------------------SERVICIOS---------------*/
 main .servicios {
