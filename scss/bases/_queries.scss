@@ -57,7 +57,18 @@
     .pelu-canina h2{
         font-size: 25px;
     }
+    .beneficios{
+        height: 1000px;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 250px 250px;
+        height: 2800px;
+
+    }
   }
+
   
   @media screen and(max-width:469px){
     .grid-galeria{
@@ -69,6 +80,16 @@
         width: 100px;
         height: 100px;
         padding-right: 50px;
+    }
+    .beneficios{
+        height: 1200px;
+    }
+    .parrafo-galeria{
+        font-size: 10px;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px;
     }
   }
   
