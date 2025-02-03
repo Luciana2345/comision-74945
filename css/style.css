@@ -120,9 +120,10 @@ body{
 }
 
 .beneficios p{
-    color: $color-principal;
-    font-size: 20px;
-    text-align: center;
+    color: darkblue
+    
+    
+    
 }
 
   /*-----NUTRICIÓN-----*/
